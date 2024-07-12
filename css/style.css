@@ -340,8 +340,6 @@ body {
 
 
 
-
-
 /*============= slide 1 ===============*/
 
 .section-4 .story-content {
@@ -1320,10 +1318,21 @@ body {
 
     }
 
+}
 
+.pix-img {
+    width: 300px !important;
+}
 
+#pix-copy {
+    color: white;
+    background-color: #77dd77;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer
+}
 
-
-
-
+#pix-copy:hover {
+    color: black;
+    background-color: white;
 }
