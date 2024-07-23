@@ -1335,3 +1335,8 @@ body {
     font-size: 13px;
     line-height: 22px;
 }
+
+.size-18 {
+    font-size: 18px;
+    font-weight: bold;
+}
