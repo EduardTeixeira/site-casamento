@@ -405,7 +405,7 @@
 
             var launchday = new Date("2024-09-21T17:00:00");
             var now = new Date();
-            var timediff = launchday.getTime() - now.getTime();
+            var timediff = now.getTime() - launchday.getTime();
 
             var seconds = Math.floor(timediff / 1000);
             var minutes = Math.floor(seconds / 60);
